@@ -2,12 +2,12 @@
 Summary:	Japanese resources for Iceweasel
 Summary(pl.UTF-8):	Japońskie pliki językowe dla Iceweasel
 Name:		iceweasel-lang-%{_lang}
-Version:	3.0.4
+Version:	3.0.5
 Release:	1
 License:	GPL
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	fad60e88f34579c89c7189108f58b3a2
+# Source0-md5:	e6c91b9fee9e62dc3fe185dbc733e9cb
 URL:		http://www.mozilla.org/
 BuildRequires:	sed >= 4.0
 BuildRequires:	unzip
