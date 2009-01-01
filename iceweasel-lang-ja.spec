@@ -1,10 +1,10 @@
 %define		_lang		ja
 Summary:	Japanese resources for Iceweasel
-Summary(pl.UTF-8):	Japońskie pliki językowe dla Iceweasel
+Summary(pl.UTF-8):	Japońskie pliki językowe dla Iceweasela
 Name:		iceweasel-lang-%{_lang}
 Version:	3.0.5
 Release:	1
-License:	GPL
+License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
 # Source0-md5:	e6c91b9fee9e62dc3fe185dbc733e9cb
@@ -25,7 +25,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Japanese resources for Iceweasel.
 
 %description -l pl.UTF-8
-Japońskie pliki językowe dla Iceweasel.
+Japońskie pliki językowe dla Iceweasela.
 
 %prep
 
